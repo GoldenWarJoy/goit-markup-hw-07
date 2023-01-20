@@ -52,39 +52,6 @@ h2 {
   background-color: var(--section-2-bg-color);
 }
 
-.container > h1 {
-  font-weight: 900;
-  width: 696px;
-  font-size: 44px;
-  line-height: 1.36;
-  /* or 136% */
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: var(--section-color);
-}
-
-.section-1-button {
-  height: 50px;
-  width: 200px;
-  margin-top: 30px;
-  background: var(--primary-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
-.button-name {
-  width: 117px;
-  font-weight: 700;
-  line-height: 1.88;
-
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--studio-button-text-color);
-}
-
 .section-1-bg {
   padding: 200px;
   background-image: linear-gradient(to right, #2f303a66, #2f303a66),
@@ -92,6 +59,17 @@ h2 {
   height: 600px;
 
   object-fit: contain;
+}
+
+.portfolio-buttons {
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 50px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .card-set {
@@ -123,13 +101,6 @@ h2 {
 
   letter-spacing: 0.03em;
   color: var(--our-team-member-position-text-color);
-}
-
-.container > h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .main-div-2-images {
@@ -298,12 +269,6 @@ h2 {
   padding: 60px 0;
 }
 
-.footer-align-items-left {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: row;
-}
-
 .container-flex-start {
   align-items: flex-start;
 }
@@ -411,35 +376,8 @@ h2 {
   outline: none;
 }
 
-.footer-button {
-  padding: 0 0 0 0px;
-  height: 50px;
-  width: 200px;
-  margin: 0;
-  background: var(--primary-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  line-height: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .footer-div-form {
   margin: 0 0 0 78px;
-}
-
-.button-name-footer {
-  margin: 0 24px 0 0;
-  padding: 0 0 0 42px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  color: var(--studio-button-text-color);
-}
-
-.footer-button > svg {
-  fill: var(--background);
-  padding: 0;
 }
 
 .footer-newsletter-form {
@@ -460,44 +398,6 @@ h2 {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: var(--background);
-}
-
-.portfolio-buttons {
-  margin-top: 0;
-  padding-left: 0;
-  margin-bottom: 50px;
-  list-style: none;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.portfolio-buttons > li {
-  background: var(--portfolio-buttons-background-color);
-}
-.portfolio-buttons > li > button:focus,
-.portfolio-buttons > li > button:hover {
-  outline: none;
-  background: var(--primary-color);
-  color: var(--portfolio-buttons-text-hover-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.portfolio-buttons > li > button {
-  height: 38px;
-  font-weight: 500;
-  cursor: pointer;
-  padding: 6px 22px;
-  border: none;
-  border-radius: 4px;
-  transition-property: background-color color box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-buttons > li:not(:last-child) {
-  margin-right: 8px;
 }
 
 .portfolio-cards-wrap {
@@ -751,6 +651,7 @@ h2 {
   gap: 7px;
   margin: 0;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .accept-label > p {
@@ -764,16 +665,6 @@ h2 {
   letter-spacing: 0.03em;
 
   color: var(--our-team-member-position-text-color);
-}
-
-.modal-send-button {
-  padding: 0;
-  height: 50px;
-  width: 200px;
-  margin: 30px 0 0 0;
-  background: var(--primary-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .accept-label > label > input[type="checkbox"] {
