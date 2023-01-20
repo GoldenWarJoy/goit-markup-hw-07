@@ -1,2 +1,5 @@
+@use "./utils/global";
+@use "./utils/flex";
 @use "./components/logo";
 @use "./components/nav";
+@use "./components/header";
