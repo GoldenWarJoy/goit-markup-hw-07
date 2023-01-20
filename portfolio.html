@@ -8,6 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,20 +25,23 @@
     <header class="header-style">
       <div class="container row">
         <div class="logo">
-          <a href="index.html">Web<span class="logo-black">Studio</span></a>
+          <a class="logo__a" href="index.html"
+            >Web<span class="logo__header-studio-color">Studio</span></a
+          >
         </div>
-        <nav class="header-nav">
+        <nav class="nav--header">
           <ul class="row">
-            <li>
-              <a class="nav-a" href="index.html"
+            <li class="nav__item">
+              <a class="nav__text" href="index.html"
                 >Agencja
-                <!-- <div class="is-active"></div> -->
               </a>
             </li>
-            <li>
-              <a class="nav-a is-active" href="portfolio.html">Portfolio</a>
-            </li>
-            <li><a class="nav-a" href="">Kontakt</a></li>
+            <li class="nav__item">
+              <a class="nav__text   nav--is-active" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li class="nav__item">
+            <li><a class="nav__text" href="">Kontakt</a></li>
           </ul>
         </nav>
         <div class="header-mail">

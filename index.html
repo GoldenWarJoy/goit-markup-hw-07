@@ -8,6 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,21 +22,26 @@
   </head>
 
   <body>
-    <header class="header-style">
+     <header class="header-style">
       <div class="container row">
         <div class="logo">
-          <a href="index.html">Web<span class="logo-black">Studio</span></a>
+          <a class="logo__a" href="index.html"
+            >Web<span class="logo__header-studio-color">Studio</span></a
+          >
         </div>
-        <nav class="header-nav">
+        <nav class="nav--header">
           <ul class="row">
-            <li>
-              <a class="nav-a is-active" href="index.html"
+            <li class="nav__item">
+              <a class="nav__text  nav--is-active" href="index.html"
                 >Agencja
-                <!-- <div class="is-active"></div> -->
               </a>
             </li>
-            <li><a class="nav-a" href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav-a" href="">Kontakt</a></li>
+            <li class="nav__item">
+              <a class="nav__text" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li class="nav__item">
+            <li><a class="nav__text" href="">Kontakt</a></li>
           </ul>
         </nav>
         <div class="header-mail">
@@ -346,9 +352,9 @@
       <div class="footer-style">
         <div class="container footer-align-items-left">
           <div class="footer-div-1">
-            <a class="footer-logo"
-              ><span class="footer-logo-blueweb">Web</span>Studio</a
-            >
+            <a class="logo logo--footer">
+              Web<span class="logo__footer-studio-color">Studio</span>
+            </a>
             <address class="footer-adress-full">
               <a href="#" class="footer-adress">
                 m. Warszawa, Aleje Jerozolimskie 21</a

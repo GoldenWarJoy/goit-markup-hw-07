@@ -67,70 +67,14 @@ body {
   border-bottom: 1px solid var(--header-border);
 }
 
-.nav-a {
-  position: relative;
-  color: var(--primary-text-color);
-  text-decoration: none;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .row > li > a:focus,
 .row > li > a:hover {
   color: var(--primary-color);
   outline: none;
 }
 
-.nav-a:visited {
-  color: inherit;
-}
-
-.is-active::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  left: 0px;
-  top: 46px;
-
-  background: #2196f3;
-  border-radius: 2px;
-}
-
-.is-active:visited {
-  color: var(--primary-color);
-}
-
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  margin-right: 93px;
-
-  letter-spacing: 0.03em;
-
-  color: var(--primary-color);
-  line-height: 3.076923076923077;
-}
-.logo > a {
-  text-decoration: none;
-}
-
-.logo > a:visited {
-  color: inherit;
-}
-
-.logo-black {
-  color: black;
-}
-
 .row > li:not(:last-child) {
   margin-right: 46px;
-}
-
-.header-nav {
-  margin-right: 345px;
 }
 
 .header-mail {
@@ -451,25 +395,10 @@ body {
 .footer-div-1 {
   margin: 0 70px 0 0;
 }
-
-.footer-logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-  color: var(--footer-logo-color);
-}
-
 .footer-adress-full {
   margin-top: 20px;
 }
 
-.footer-logo-blueweb {
-  color: var(--primary-color);
-}
 .footer-adress {
   font-weight: 400;
   font-size: 14px;
