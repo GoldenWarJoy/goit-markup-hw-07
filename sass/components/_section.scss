@@ -1,0 +1,38 @@
+.section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 94px;
+  width: 100%;
+  background: var(--section-bg-color);
+
+  &__banner {
+    padding: 200px;
+    background-image: linear-gradient(to right, #2f303a66, #2f303a66),
+      url(../images/section-1-background.jpg);
+    height: 600px;
+
+    object-fit: contain;
+  }
+
+  &__banner-text {
+    margin: 0;
+    padding: 0;
+  }
+}
+.section--our-team {
+  background-color: var(--portfolio-buttons-background-color);
+}
+
+.section--our-clients {
+  background-color: var(--background);
+}
+
+.section--padding-zero {
+  padding: 0;
+}
+
+.section--card-set {
+  background-color: var(--section-2-bg-color);
+}

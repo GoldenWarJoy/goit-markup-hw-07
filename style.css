@@ -24,43 +24,6 @@
   --form-placeholder: rgba(117, 117, 117, 0.5);
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
-}
-
-h2 {
-  padding: 0;
-  margin: 0;
-}
-
-.section {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 94px;
-  width: 100%;
-  background: var(--section-bg-color);
-}
-
-.padding-zero {
-  padding: 0;
-}
-
-.section-2-bg {
-  background-color: var(--section-2-bg-color);
-}
-
-.section-1-bg {
-  padding: 200px;
-  background-image: linear-gradient(to right, #2f303a66, #2f303a66),
-    url(images/section-1-background.jpg);
-  height: 600px;
-
-  object-fit: contain;
-}
-
 .portfolio-buttons {
   margin-top: 0;
   padding-left: 0;
@@ -72,88 +35,13 @@ h2 {
   gap: 8px;
 }
 
-.card-set {
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 0 0 94px 0;
-  list-style: none;
-}
-
-.item {
-  flex-basis: calc((100% - 90px) / 4);
-}
-
-.item > h2 {
-  margin-top: 30px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.item > p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-
-  letter-spacing: 0.03em;
-  color: var(--our-team-member-position-text-color);
-}
-
-.main-div-2-images {
-  padding: 50px 0 0 0;
-  display: flex;
-  gap: 30px;
-}
-
-.main-div-2-single-image {
-  position: relative;
-  margin: 0;
-  padding: 0;
-}
-
-.main-div-2-single-image > p {
-  position: absolute;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  width: 100%;
-  height: 70px;
-  color: var(--footer-logo-color);
-  background-color: rgba(47, 48, 58, 0.8);
-  left: 0;
-  bottom: 0px;
-  padding: 27px 0;
-  margin: 0;
-}
-
-.main-div-2-single-image > img {
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
-.main-div-3-our-team {
+. .main-div-3-our-team {
   background: var(--main-div-our-team-background-color);
   margin-top: 94px;
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.section-3-bg {
-  background-color: var(--portfolio-buttons-background-color);
-}
-
-.section-4-bg {
-  background-color: var(--background);
 }
 
 .main-div-3-our-team > h2 {
@@ -172,36 +60,13 @@ h2 {
   list-style: none;
 }
 
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  padding: 0 0 30px 0;
-}
-
-.social-links > a > svg {
-  display: block;
-  border-radius: 50%;
-  background-color: var(--background);
-  fill: var(--social-links-color);
-  transition-property: background-color fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-links > a:focus > svg,
-.social-links > a:hover > svg {
-  background-color: var(--primary-color);
-  fill: var(--background);
-  outline: none;
-}
-
 .main-div3-our-team-member {
   flex-basis: calc((100% - 90px) / 4);
   background: var(--our-team-member-background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 
 .main-div3-our-team-member > img {
@@ -225,14 +90,6 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--our-team-member-position-text-color);
   margin: 0 0 10px 0;
-}
-
-.section > h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 36px;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .all-our-clients {
@@ -351,29 +208,6 @@ h2 {
   text-transform: uppercase;
 
   color: var(--portfolio-buttons-text-hover-color);
-}
-
-.footer-social-links {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.footer-social-links > a > svg {
-  display: block;
-  border-radius: 50%;
-  fill: var(--background);
-  background-color: var(--footer-social-links-bg);
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-links > a:focus > svg,
-.footer-social-links > a:hover > svg {
-  background-color: var(--primary-color);
-  cursor: pointer;
-  outline: none;
 }
 
 .footer-div-form {
