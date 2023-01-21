@@ -20,26 +20,15 @@ body {
   flex-direction: row;
 }
 
-.container-flex-start {
-  align-items: flex-start;
+.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
-.container > h1 {
-  font-weight: 900;
-  width: 696px;
-  font-size: 44px;
-  line-height: 1.36;
-  /* or 136% */
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  color: var(--section-color);
-}
-
-.container > h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
 }
