@@ -14,7 +14,7 @@
   transition-property: visibility, opacity, transform;
   transition-duration: 0.4s;
   transform: scale(1) translateX(-50%) translateY(-50%);
-  background-color: var(--background);
+  background-color: getColor('background');
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -57,7 +57,7 @@
     width: 448px;
     margin: 0;
     padding: 0;
-    border: 1px solid var(--form-field-border);
+    border: 1px solid getColor('form-field-border');
     border-radius: 4px;
     padding-left: 42px;
     transition-property: border-color;
@@ -66,13 +66,13 @@
 
     &:hover,
     &:focus {
-      border-color: var(--primary-color);
+      border-color: getColor('primary-color');
       outline: none;
     }
 
     &:hover + .contact-form__field-icon,
     &:focus + .contact-form__field-icon {
-      fill: var(--primary-color);
+      fill: getColor('primary-color');
     }
   }
 
@@ -85,7 +85,7 @@
     left: 12px;
     width: 18px;
     height: 18px;
-    fill: var(--primary-text-color);
+    fill: getColor('primary-text-color');
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -93,7 +93,7 @@
 
   &__comment {
     height: 120px;
-    border: 1px solid var(--form-field-border);
+    border: 1px solid getColor('form-field-border');
     border-radius: 4px;
     transition-property: border-color;
     transition-duration: 250ms;
@@ -102,7 +102,7 @@
 
     &:focus,
     &:hover {
-      border-color: var(--primary-color);
+      border-color: getColor('primary-color');
       outline: none;
     }
 
@@ -111,7 +111,7 @@
       font-size: 12px;
       line-height: 14px;
       letter-spacing: 0.01em;
-      color: var(--form-placeholder);
+      color: getColor('form-placeholder');
     }
   }
 
@@ -124,7 +124,7 @@
     padding: 0;
     letter-spacing: 0.01em;
 
-    color: var(--our-team-member-position-text-color);
+    color: getColor('our-team-member-position-text-color');
   }
 
   &__policy-accept {
@@ -143,11 +143,11 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--our-team-member-position-text-color);
+    color: getColor('our-team-member-position-text-color');
   }
 
   &__policy-link {
-    color: var(--primary-color);
+    color: getColor('primary-color');
   }
 
   &__policy-accept > label > input[type="checkbox"] {
@@ -156,9 +156,9 @@
   }
 
   &__policy-icon {
-    fill: var(--background);
+    fill: getColor('background');
     border: 2px solid;
-    border-color: var(--primary-text-color);
+    border-color: getColor('primary-text-color');
     z-index: 4;
     margin: 0;
     padding: 0;
@@ -174,8 +174,8 @@
   }
 
   &__policy-checkbox-hidden:checked ~ &__policy-icon {
-    fill: var(--primary-color);
-    background-color: var(--primary-color);
+    fill: getColor('primary-color');
+    background-color: getColor('primary-color');
     border: none;
   }
 }

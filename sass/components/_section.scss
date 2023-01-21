@@ -5,7 +5,7 @@
   flex-direction: column;
   padding: 94px;
   width: 100%;
-  background: var(--section-bg-color);
+  background: getColor('section-bg-color');
 
   &__banner {
     padding: 200px;
@@ -28,15 +28,15 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 30px;
-    color: var(--section-color);
+    color: getColor('section-color');
   }
 }
 .section--our-team {
-  background-color: var(--portfolio-buttons-background-color);
+  background-color: getColor('portfolio-buttons-background-color');
 }
 
 .section--our-clients {
-  background-color: var(--background);
+  background-color: getColor('background');
 }
 
 .section--padding-zero {
@@ -44,5 +44,5 @@
 }
 
 .section--card-set {
-  background-color: var(--section-2-bg-color);
+  background-color: getColor('section-2-bg-color');
 }

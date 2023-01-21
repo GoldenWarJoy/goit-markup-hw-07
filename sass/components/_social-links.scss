@@ -6,8 +6,8 @@
   &__icon {
     display: block;
     border-radius: 50%;
-    background-color: var(--background);
-    fill: var(--social-links-color);
+    background-color: getColor('background');
+    fill: getColor('social-links-color');
     transition-property: background-color fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -15,8 +15,8 @@
 
   &__link:focus > &__icon,
   &__link:hover > &__icon {
-    background-color: var(--primary-color);
-    fill: var(--background);
+    background-color: getColor('primary-color');
+    fill: getColor('background');
     outline: none;
     cursor: pointer;
   }
@@ -29,6 +29,6 @@
 }
 
 .social-links__icon--color {
-  fill: var(--background);
-  background-color: var(--footer-social-links-bg);
+  fill: getColor('background');
+  background-color: getColor('footer-social-links-bg');
 }

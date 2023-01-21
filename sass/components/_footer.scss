@@ -1,4 +1,4 @@
 .footer-style {
-  background: var(--footer-background);
+  background: getColor('footer-background');
   padding: 60px 0;
 }

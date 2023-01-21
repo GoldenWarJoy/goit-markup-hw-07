@@ -14,7 +14,7 @@
     text-decoration: none;
     letter-spacing: 0.03em;
 
-    color: var(--footer-adress-color);
+    color: getColor('footer-adress-color');
     font-style: normal;
     transition-property: color;
     transition-duration: 250ms;
@@ -22,7 +22,7 @@
 
     &:focus,
     &:hover {
-      color: var(--primary-color);
+      color: getColor('primary-color');
       outline: none;
     }
   }
@@ -36,14 +36,14 @@
 
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: var(--footer-adress);
+    color: getColor('footer-adress');
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:focus,
     &:hover {
-      color: var(--primary-color);
+      color: getColor('primary-color');
       outline: none;
     }
   }

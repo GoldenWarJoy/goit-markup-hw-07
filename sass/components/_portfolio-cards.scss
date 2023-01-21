@@ -9,8 +9,8 @@
 }
 
 .portfolio-item {
-  border-bottom: 1px solid var(--portfolio-card-border);
-  background-color: var(--section-2-bg-color);
+  border-bottom: 1px solid getColor('portfolio-card-border');
+  background-color: getColor('section-2-bg-color');
 
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -61,8 +61,8 @@
   }
 
   &__header {
-    border-left: 1px solid var(--portfolio-card-border);
-    border-right: 1px solid var(--portfolio-card-border);
+    border-left: 1px solid getColor('portfolio-card-border');
+    border-right: 1px solid getColor('portfolio-card-border');
     margin: 0;
     padding: 20px 24px 0 24px;
     font-weight: 700;
@@ -72,12 +72,12 @@
   }
 
   &__comment {
-    border-left: 1px solid var(--portfolio-card-border);
-    border-right: 1px solid var(--portfolio-card-border);
+    border-left: 1px solid getColor('portfolio-card-border');
+    border-right: 1px solid getColor('portfolio-card-border');
     margin: 0;
     padding: 4px 24px 20px 24px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-    color: var(--our-team-member-position-text-color);
+    color: getColor('our-team-member-position-text-color');
   }
 }

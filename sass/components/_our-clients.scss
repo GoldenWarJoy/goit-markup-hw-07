@@ -21,9 +21,9 @@
   }
 
   &__icon {
-    fill: var(--social-links-color);
-    border: 1px solid var(--social-links-color);
-    background: var(--our-team-member-background-color);
+    fill: getColor('social-links-color');
+    border: 1px solid getColor('social-links-color');
+    background: getColor('our-team-member-background-color');
     border-radius: 4px;
     transition-property: border-color fill;
     transition-duration: 250ms;
@@ -31,8 +31,8 @@
   }
   &__link:focus > &__icon,
   &__link:hover > &__icon {
-    fill: var(--primary-color);
-    border-color: var(--primary-color);
+    fill: getColor('primary-color');
+    border-color: getColor('primary-color');
     outline: none;
   }
 }

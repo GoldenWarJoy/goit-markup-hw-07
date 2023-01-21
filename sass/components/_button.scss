@@ -5,25 +5,25 @@
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--studio-button-text-color);
+  color: getColor('studio-button-text-color');
   height: 50px;
   width: 200px;
   justify-content: center;
   border: none;
-  background: var(--primary-color);
+  background: getColor('primary-color');
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   gap: 24px;
   cursor: pointer;
 
   &__footer-icon {
-    fill: var(--background);
+    fill: getColor('background');
     padding: 0;
   }
 }
 
 .button-select {
-  background-color: var(--portfolio-buttons-background-color);
+  background-color: getColor('portfolio-buttons-background-color');
   height: 38px;
   font-weight: 500;
   cursor: pointer;
@@ -37,8 +37,8 @@
   &:focus,
   &:hover {
     outline: none;
-    background: var(--primary-color);
-    color: var(--portfolio-buttons-text-hover-color);
+    background: getColor('primary-color');
+    color: getColor('portfolio-buttons-text-hover-color');
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }

@@ -2,9 +2,9 @@ body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: var(--primary-text-color);
+  color: getColor('primary-text-color');
   margin: 0 auto;
-  background-color: var(--background);
+  background-color: getColor('background');
 }
 
 .container {
