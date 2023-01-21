@@ -20,6 +20,10 @@ body {
   flex-direction: row;
 }
 
+.container-flex-start {
+  align-items: flex-start;
+}
+
 .container > h1 {
   font-weight: 900;
   width: 696px;

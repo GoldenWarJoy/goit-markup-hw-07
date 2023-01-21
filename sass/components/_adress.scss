@@ -1,0 +1,50 @@
+.address {
+  margin: 0 70px 0 0;
+
+  &__full {
+    margin-top: 20px;
+  }
+
+  &__place {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    display: block;
+    /* or 171% */
+    text-decoration: none;
+    letter-spacing: 0.03em;
+
+    color: var(--footer-adress-color);
+    font-style: normal;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+      color: var(--primary-color);
+      outline: none;
+    }
+  }
+
+  &__mail-phone {
+    display: block;
+    font-style: normal;
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--footer-adress);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+      color: var(--primary-color);
+      outline: none;
+    }
+  }
+}
