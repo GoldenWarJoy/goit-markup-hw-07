@@ -16,20 +16,20 @@
 
   align-items: center;
   display: flex;
-  color: getColor('our-team-member-position-text-color');
+  color: getColor('our-team-member-position-text');
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus,
   &:hover {
-    color: getColor('primary-color');
+    color: getColor('primary');
     outline: none;
   }
 
   &:focus > .header-icon,
   &:hover > .header-icon {
-    fill: getColor('primary-color');
+    fill: getColor('primary');
     outline: none;
   }
 }
@@ -37,7 +37,7 @@
 .header-icon {
   margin-right: 10px;
   display: block;
-  fill: getColor('our-team-member-position-text-color');
+  fill: getColor('our-team-member-position-text');
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

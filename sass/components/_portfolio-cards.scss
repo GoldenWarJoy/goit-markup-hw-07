@@ -10,7 +10,7 @@
 
 .portfolio-item {
   border-bottom: 1px solid getColor('portfolio-card-border');
-  background-color: getColor('section-2-bg-color');
+  background-color: getColor('section-2-bg');
 
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -78,6 +78,6 @@
     padding: 4px 24px 20px 24px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-    color: getColor('our-team-member-position-text-color');
+    color: getColor('our-team-member-position-text');
   }
 }

@@ -14,7 +14,7 @@
     text-decoration: none;
     letter-spacing: 0.03em;
 
-    color: getColor('footer-adress-color');
+    color: getColor('footer-adress');
     font-style: normal;
     transition-property: color;
     transition-duration: 250ms;
@@ -22,7 +22,7 @@
 
     &:focus,
     &:hover {
-      color: getColor('primary-color');
+      color: getColor('primary');
       outline: none;
     }
   }
@@ -43,7 +43,7 @@
 
     &:focus,
     &:hover {
-      color: getColor('primary-color');
+      color: getColor('primary');
       outline: none;
     }
   }

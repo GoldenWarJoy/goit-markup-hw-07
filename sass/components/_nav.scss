@@ -4,7 +4,7 @@
 
 .nav__text {
   position: relative;
-  color: getColor('primary-text-color');
+  color: getColor('primary-text');
   text-decoration: none;
   transition-property: color;
   transition-duration: 250ms;
@@ -16,7 +16,7 @@
 
   &:focus,
   &:hover {
-    color: getColor('primary-color');
+    color: getColor('primary');
     outline: none;
   }
 }
@@ -33,7 +33,7 @@
     border-radius: 2px;
   }
   &:visited {
-    color: getColor('primary-color');
+    color: getColor('primary');
   }
 }
 

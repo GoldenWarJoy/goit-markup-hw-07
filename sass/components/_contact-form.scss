@@ -66,13 +66,13 @@
 
     &:hover,
     &:focus {
-      border-color: getColor('primary-color');
+      border-color: getColor('primary');
       outline: none;
     }
 
     &:hover + .contact-form__field-icon,
     &:focus + .contact-form__field-icon {
-      fill: getColor('primary-color');
+      fill: getColor('primary');
     }
   }
 
@@ -85,7 +85,7 @@
     left: 12px;
     width: 18px;
     height: 18px;
-    fill: getColor('primary-text-color');
+    fill: getColor('primary-text');
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -102,7 +102,7 @@
 
     &:focus,
     &:hover {
-      border-color: getColor('primary-color');
+      border-color: getColor('primary');
       outline: none;
     }
 
@@ -124,7 +124,7 @@
     padding: 0;
     letter-spacing: 0.01em;
 
-    color: getColor('our-team-member-position-text-color');
+    color: getColor('our-team-member-position-text');
   }
 
   &__policy-accept {
@@ -143,11 +143,11 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: getColor('our-team-member-position-text-color');
+    color: getColor('our-team-member-position-text');
   }
 
   &__policy-link {
-    color: getColor('primary-color');
+    color: getColor('primary');
   }
 
   &__policy-accept > label > input[type="checkbox"] {
@@ -158,7 +158,7 @@
   &__policy-icon {
     fill: getColor('background');
     border: 2px solid;
-    border-color: getColor('primary-text-color');
+    border-color: getColor('primary-text');
     z-index: 4;
     margin: 0;
     padding: 0;
@@ -174,8 +174,8 @@
   }
 
   &__policy-checkbox-hidden:checked ~ &__policy-icon {
-    fill: getColor('primary-color');
-    background-color: getColor('primary-color');
+    fill: getColor('primary');
+    background-color: getColor('primary');
     border: none;
   }
 }
