@@ -54,3 +54,23 @@
   justify-content: center;
   gap: 8px;
 }
+
+.button-x {
+  position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  top: 17px;
+  right: 17px;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  &__icon {
+    display: block;
+  }
+}
