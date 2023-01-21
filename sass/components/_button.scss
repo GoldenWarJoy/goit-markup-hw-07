@@ -43,3 +43,14 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
+
+.portfolio-buttons {
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 50px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
