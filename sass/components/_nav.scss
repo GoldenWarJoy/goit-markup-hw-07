@@ -4,7 +4,7 @@
 
 .nav__text {
   position: relative;
-  color: getColor('primary-text');
+  color: getColor("primary-text");
   text-decoration: none;
   transition-property: color;
   transition-duration: 250ms;
@@ -16,27 +16,27 @@
 
   &:focus,
   &:hover {
-    color: getColor('primary');
+    color: getColor("primary");
     outline: none;
   }
-}
 
-.nav--is-active {
-  &::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    left: 0px;
-    top: 46px;
-    background: #2196f3;
-    border-radius: 2px;
+  &--is-active {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      left: 0px;
+      top: 46px;
+      background: #2196f3;
+      border-radius: 2px;
+    }
+    &:visited {
+      color: getColor("primary");
+    }
   }
-  &:visited {
-    color: getColor('primary');
-  }
-}
 
-.nav--header {
-  margin-right: 345px;
+  &--header {
+    margin-right: 345px;
+  }
 }
