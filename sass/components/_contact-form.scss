@@ -14,10 +14,13 @@
   transition-property: visibility, opacity, transform;
   transition-duration: 0.4s;
   transform: scale(1) translateX(-50%) translateY(-50%);
-  background-color: getColor('background');
+  background-color: getColor("background");
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  @media screen and (max-width: 1200px) {
+    width: 450px;
+  }
 
   &__header {
     font-weight: 700;
@@ -57,7 +60,7 @@
     width: 448px;
     margin: 0;
     padding: 0;
-    border: 1px solid getColor('form-field-border');
+    border: 1px solid getColor("form-field-border");
     border-radius: 4px;
     padding-left: 42px;
     transition-property: border-color;
@@ -66,13 +69,13 @@
 
     &:hover,
     &:focus {
-      border-color: getColor('primary');
+      border-color: getColor("primary");
       outline: none;
     }
 
     &:hover + .contact-form__field-icon,
     &:focus + .contact-form__field-icon {
-      fill: getColor('primary');
+      fill: getColor("primary");
     }
   }
 
@@ -85,7 +88,7 @@
     left: 12px;
     width: 18px;
     height: 18px;
-    fill: getColor('primary-text');
+    fill: getColor("primary-text");
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -93,7 +96,7 @@
 
   &__comment {
     height: 120px;
-    border: 1px solid getColor('form-field-border');
+    border: 1px solid getColor("form-field-border");
     border-radius: 4px;
     transition-property: border-color;
     transition-duration: 250ms;
@@ -102,7 +105,7 @@
 
     &:focus,
     &:hover {
-      border-color: getColor('primary');
+      border-color: getColor("primary");
       outline: none;
     }
 
@@ -111,7 +114,7 @@
       font-size: 12px;
       line-height: 14px;
       letter-spacing: 0.01em;
-      color: getColor('form-placeholder');
+      color: getColor("form-placeholder");
     }
   }
 
@@ -124,7 +127,7 @@
     padding: 0;
     letter-spacing: 0.01em;
 
-    color: getColor('our-team-member-position-text');
+    color: getColor("our-team-member-position-text");
   }
 
   &__policy-accept {
@@ -143,11 +146,11 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: getColor('our-team-member-position-text');
+    color: getColor("our-team-member-position-text");
   }
 
   &__policy-link {
-    color: getColor('primary');
+    color: getColor("primary");
   }
 
   &__policy-accept > label > input[type="checkbox"] {
@@ -156,9 +159,9 @@
   }
 
   &__policy-icon {
-    fill: getColor('background');
+    fill: getColor("background");
     border: 2px solid;
-    border-color: getColor('primary-text');
+    border-color: getColor("primary-text");
     z-index: 4;
     margin: 0;
     padding: 0;
@@ -174,8 +177,8 @@
   }
 
   &__policy-checkbox-hidden:checked ~ &__policy-icon {
-    fill: getColor('primary');
-    background-color: getColor('primary');
+    fill: getColor("primary");
+    background-color: getColor("primary");
     border: none;
   }
 }
