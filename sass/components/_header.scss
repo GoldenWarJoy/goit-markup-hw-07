@@ -10,9 +10,10 @@
 .header-mail-phone {
   display: block;
 
+  margin-left: auto;
+  margin-right: 30px;
   &__link {
     text-decoration: none;
-
     align-items: center;
     display: flex;
     color: getColor("our-team-member-position-text");
